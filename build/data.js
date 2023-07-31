@@ -1,0 +1,11 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.outputDirWithMetadata = exports.gotoSettings = exports.outputDirWithoutMetadata = exports.playlistUrl = exports.YtdlMp3Error = exports.loginUrl = exports.downloaderOptions = exports.ua = void 0;
+exports.ua = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.91 Mobile Safari/537.36";
+exports.downloaderOptions = { outputDirNoTag: "musicWithoutMetadata/", outputDirWithTag: "musicWithMetadata/" };
+exports.loginUrl = "https://accounts.google.com/AccountChooser?service=mail&continue=https://google.com&hl=en";
+exports.YtdlMp3Error = "YtdlMp3Error: Call to iTunes API did not return any results";
+exports.playlistUrl = "https://www.youtube.com/playlist?list=LL";
+exports.outputDirWithoutMetadata = "musicWithoutMetadata/";
+exports.gotoSettings = { waitUntil: "networkidle2" };
+exports.outputDirWithMetadata = "musicWithMetadata/";

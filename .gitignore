@@ -1,0 +1,5 @@
+musicWithoutMetadata/*
+musicWithMetadata/*
+source/*
+node_modules
+!music
